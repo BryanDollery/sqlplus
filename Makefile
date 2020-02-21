@@ -1,4 +1,4 @@
-.PHONY: all build test
+.PHONY: all build test help
 
 .DEFAULT_GOAL := all
 
@@ -9,3 +9,6 @@ build:
 
 test:
 	./test.sh
+
+help:
+	@echo "make all|build|test"
